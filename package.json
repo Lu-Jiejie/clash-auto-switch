@@ -1,17 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "clash-auto-switch",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@9.1.1",
   "description": "pkg-description",
   "author": "Lu-Jiejie <lu-jiejie@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Lu-Jiejie/pkg-name#readme",
+  "homepage": "https://github.com/Lu-Jiejie/clash-auto-switch#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lu-Jiejie/pkg-name.git"
+    "url": "git+https://github.com/Lu-Jiejie/clash-auto-switch.git"
   },
-  "bugs": "https://github.com/Lu-Jiejie/pkg-name/issues",
+  "bugs": "https://github.com/Lu-Jiejie/clash-auto-switch/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -39,7 +39,7 @@
     "dev": "unbuild --stub",
     "build": "unbuild",
     "lint": "eslint .",
-    "release": "bumpp && npm publish",
+    "release": "bumpp",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
