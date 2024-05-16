@@ -1,7 +1,7 @@
 {
   "name": "clash-auto-switch",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.1",
   "description": "pkg-description",
   "author": "Lu-Jiejie <lu-jiejie@outlook.com>",
